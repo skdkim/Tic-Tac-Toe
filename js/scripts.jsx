@@ -1,5 +1,6 @@
 require('./domEvents.js');
 require('../styles/main.css');
+// require('../styles/square.css');
 
 import React from 'react';
 import ReactDOM from 'react-dom';

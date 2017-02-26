@@ -1,5 +1,9 @@
+require('../styles/game.css');
+
 import React from 'react';
 import Board from './board';
+
+
 
 class Game extends React.Component {
   constructor() {
