@@ -4,10 +4,26 @@ var webpack = require('webpack');
 module.exports = {
   context: __dirname,
   devtool: debug ? "inline-sourcemap" : null,
-  entry: "./js/scripts.js",
+  entry: "./js/scripts.jsx",
   output: {
     path: __dirname + "/js",
     filename: "scripts.min.js"
+  },
+  module: {
+    loaders: [
+      {
+        test: [/\.jsx?$/],
+        exclude: /(node_modules)/,
+        loader: 'babel-loader',
+        query: {
+          presets: ['es2015', 'react']
+        }
+      }
+    ]
+  },
+  devtool: 'source-map',
+  resolve: {
+    extensions: ['.js', '.jsx', '*']
   },
   plugins: debug ? [] : [
     new webpack.optimize.DedupePlugin(),
