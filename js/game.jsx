@@ -20,7 +20,7 @@ class Game extends React.Component {
       return;
     }
 
-    squares[i] = this.state.xIsNext ? 'Z' : 'O';
+    squares[i] = this.state.xIsNext ? 'X' : 'O';
 
     this.setState({
       history: history.concat([{
