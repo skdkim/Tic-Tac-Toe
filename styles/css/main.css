@@ -3,6 +3,10 @@ body {
   margin: 20px;
 }
 
+.foo {
+  background-image: url('../images/boardBackground.jpg');
+}
+
 ol, ul {
   padding-left: 30px;
 }

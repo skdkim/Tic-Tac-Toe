@@ -22,7 +22,11 @@ module.exports = {
       {
         test: [/\.css?$/],
         loader: 'style-loader!css-loader'
-      }
+      },
+      {
+        test: /\.(jpe?g|gif|png)$/,
+        loader: 'file-loader?emitFile=false&name=[path][name].[ext]'
+     }
     ]
   },
   resolve: {
