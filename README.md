@@ -2,7 +2,7 @@
 
 [Play TicTacToe](https://skdkim.github.io/Tic-Tac-Toe/)
 
-![SS](https://github.com/skdkim/Tic-Tac-Toe/blob/master/styles/images/ss1.png)
+![SS](https://github.com/skdkim/Tic-Tac-Toe/blob/master/styles/images/ss2.png)
 
 ## About the Game
 You already know what this game is, it's Tic Tac Toe. You take turns with
