@@ -6,10 +6,21 @@
   left: 50%;
   transform: translate(-50%, -50%);
   height: 268px;
+  margin: 5px;
 }
 
 .game-info {
   margin-left: 20px;
+}
+
+.bg {
+  height: 300px;
+  width: 600px;
+  background: rgba(230, 211, 152, 0.8);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
 }
 
 @media (max-width: 767px){
@@ -17,5 +28,12 @@
     top: initial;
     left: initial;
     transform: translate(0, 0);
+  }
+
+  .bg {
+    top: initial;
+    left: initial;
+    transform: translate(0, 0);
+    width: 300px;
   }
 }
