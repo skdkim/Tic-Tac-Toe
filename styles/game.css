@@ -1,8 +1,21 @@
 .game {
   display: flex;
   flex-direction: row;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 268px;
 }
 
 .game-info {
   margin-left: 20px;
+}
+
+@media (max-width: 767px){
+  .game {
+    top: initial;
+    left: initial;
+    transform: translate(0, 0);
+  }
 }
