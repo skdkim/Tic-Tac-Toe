@@ -1,5 +1,5 @@
 import React from 'react';
-require('../styles/square.css');
+require('../styles/css/square.css');
 
 function Square(props) {
   return (

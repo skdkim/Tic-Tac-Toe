@@ -1,4 +1,4 @@
-require('../styles/game.css');
+require('../styles/css/game.css');
 
 import React from 'react';
 import Board from './board';

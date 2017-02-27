@@ -1,5 +1,5 @@
 require('./domEvents.js');
-require('../styles/main.css');
+require('../styles/css/main.css');
 
 import React from 'react';
 import ReactDOM from 'react-dom';

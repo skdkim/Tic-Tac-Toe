@@ -1,4 +1,4 @@
-require('../styles/board.css');
+require('../styles/css/board.css');
 
 import React from 'react';
 import Square from './square';
