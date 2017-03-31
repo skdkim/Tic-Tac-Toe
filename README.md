@@ -2,13 +2,15 @@
 
 [Play TicTacToe](https://skdkim.github.io/Tic-Tac-Toe/)
 
+Check out my full [portfolio](http://www.davidkim.tech/)!
+
 ![SS](https://github.com/skdkim/Tic-Tac-Toe/blob/master/styles/images/ss.png)
 
 ## About the Game
 You already know what this game is, it's Tic Tac Toe. You take turns with
 someone or yourself placing pieces on the board. First to get in a row wins.
 
-##Technology
+## Technology
 This game was created from Vanilla JS using the React library. Much of the
 game logic code can be found on Facebook's tutorial for React.
 
